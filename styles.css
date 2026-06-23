@@ -362,6 +362,11 @@ button {
   --card-accent: #b76435;
 }
 
+.treatment-card--wide {
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 34%);
+}
+
 .treatment-card__copy {
   position: relative;
   z-index: 1;
@@ -465,6 +470,11 @@ button {
 .mini-prices--large dt,
 .mini-prices--large dd {
   font-size: 1rem;
+}
+
+.mini-prices--columns {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 22px;
 }
 
 .site-footer {
@@ -586,6 +596,10 @@ button {
     grid-template-columns: 1fr;
   }
 
+  .treatment-card--wide {
+    grid-column: auto;
+  }
+
   .treatment-card__copy {
     padding: 24px 22px 22px 28px;
   }
@@ -598,6 +612,10 @@ button {
 
   .mini-prices div {
     grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .mini-prices--columns {
+    grid-template-columns: 1fr;
   }
 
   .site-footer {

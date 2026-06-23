@@ -19,4 +19,5 @@ Landing page estática para D.B.Beauty, preparada para subir a GitHub Pages.
 - Fisioterapia 40 min: 60€.
 - Fisioterapia 1 hora: 80€.
 - Extensiones nuevas acrílico: 70€.
+- Rellenos de acrílico: 60€.
 - Carbón Peel pack 3 sesiones: 200€.
