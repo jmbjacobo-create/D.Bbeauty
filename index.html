@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="D.B.Beauty: tratamientos faciales, uñas, mirada, fisioterapia y eliminación de tatuajes con precios claros."
+    />
+    <title>D.B.Beauty | Belleza y bienestar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">D.B.Beauty</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal">
+        <a href="#servicios">Tratamientos</a>
+        <a href="#precios">Precios</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero__media" aria-hidden="true"></div>
+        <div class="hero__content">
+          <p class="eyebrow">Belleza · bienestar · cuidado experto</p>
+          <h1 id="hero-title">D.B.Beauty</h1>
+          <p class="hero__text">
+            Tratamientos faciales, uñas, mirada, fisioterapia y eliminación de tatuajes
+            con una estética limpia, luminosa y profesional.
+          </p>
+          <div class="hero__actions" aria-label="Acciones principales">
+            <a class="button button--primary" href="#precios">Ver tratamientos</a>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#servicios" aria-label="Bajar a servicios">Ver servicios</a>
+      </section>
+
+      <section class="intro" id="servicios" aria-labelledby="intro-title">
+        <div class="section-kicker">Nuestros servicios</div>
+        <div class="intro__grid">
+          <h2 id="intro-title">Tratamientos claros, visuales y fáciles de comparar.</h2>
+          <p>
+            Una carta compacta para ver de un vistazo qué se ofrece, qué incluye y cuánto cuesta.
+          </p>
+        </div>
+      </section>
+
+      <section class="pricing-section" id="precios" aria-labelledby="pricing-title">
+        <div class="pricing-header">
+          <p class="section-kicker">Lista de precios</p>
+          <h2 id="pricing-title">Carta visual de tratamientos</h2>
+          <p>
+            Precios actualizados para D.B.Beauty. Los tratamientos de eliminación pueden requerir valoración previa.
+          </p>
+        </div>
+
+        <div class="treatment-grid">
+          <article class="treatment-card treatment-card--peach">
+            <div class="treatment-card__copy">
+              <span class="tag">Hidrafacial</span>
+              <h3>Hidrafacial Pack Glow</h3>
+              <p class="price">120€</p>
+              <ul>
+                <li>Doble limpieza hidro-succión</li>
+                <li>Peeling acuoso suave</li>
+                <li>Infusión de oxígeno</li>
+              </ul>
+            </div>
+            <img src="assets/optimized/hidrafacial.jpg" alt="Tratamiento hidrafacial en cabina" />
+          </article>
+
+          <article class="treatment-card treatment-card--rose">
+            <div class="treatment-card__copy">
+              <span class="tag">Hidrafacial avanzado</span>
+              <h3>Hidrafacial Pack Deluxe</h3>
+              <p class="price">150€</p>
+              <ul>
+                <li>Incluye todo el Pack Glow</li>
+                <li>Ultrasonido y radiofrecuencia tensora</li>
+                <li>Martillo frío calmante</li>
+                <li>Máscara LED - 10 min</li>
+              </ul>
+            </div>
+            <img src="assets/optimized/hidrafacial.jpg" alt="Limpieza hidrafacial profesional" />
+          </article>
+
+          <article class="treatment-card treatment-card--charcoal">
+            <div class="treatment-card__copy">
+              <span class="tag">Piel luminosa</span>
+              <h3>Carbón Peel</h3>
+              <div class="price-row">
+                <p class="price">85€</p>
+                <strong>Pack 3 sesiones · 200€</strong>
+              </div>
+              <ul>
+                <li>Limpia poros y reduce puntos negros</li>
+                <li>Mejora textura y activa colágeno</li>
+                <li>Atenúa acné activo y marcas superficiales</li>
+                <li>Luminosidad inmediata</li>
+              </ul>
+            </div>
+            <img src="assets/optimized/carbon-peel.jpg" alt="Tratamiento facial carbón peel" />
+          </article>
+
+          <article class="treatment-card treatment-card--sage">
+            <div class="treatment-card__copy">
+              <span class="tag">Uñas & mirada</span>
+              <h3>Manicura, acrílico y lifting</h3>
+              <dl class="mini-prices">
+                <div><dt>Manicura semipermanente</dt><dd>40€</dd></div>
+                <div><dt>Rubber</dt><dd>50€</dd></div>
+                <div><dt>Pedicura</dt><dd>50€</dd></div>
+                <div><dt>Extensiones nuevas acrílico</dt><dd>70€</dd></div>
+                <div><dt>Relleno acrílico</dt><dd>50€</dd></div>
+                <div><dt>Lifting de pestañas</dt><dd>50€</dd></div>
+                <div><dt>Francesa, baby boomer o decoración</dt><dd>+5€</dd></div>
+                <div><dt>Retirada con manicura rápida</dt><dd>15€</dd></div>
+              </dl>
+            </div>
+            <img src="assets/optimized/unas-mirada.jpg" alt="Uñas acrílicas elegantes y cuidado de mirada" />
+          </article>
+
+          <article class="treatment-card treatment-card--blue">
+            <div class="treatment-card__copy">
+              <span class="tag">Fisioterapia & rehabilitación</span>
+              <h3>Masoterapia, punción seca y recuperación</h3>
+              <ul>
+                <li>Masoterapia</li>
+                <li>Punción seca</li>
+                <li>Rehabilitación</li>
+              </ul>
+              <dl class="mini-prices mini-prices--large">
+                <div><dt>Sesión 40 min</dt><dd>60€</dd></div>
+                <div><dt>Sesión 1 hora</dt><dd>80€</dd></div>
+              </dl>
+            </div>
+            <img src="assets/optimized/fisioterapia.jpg" alt="Sesión de fisioterapia y rehabilitación" />
+          </article>
+
+          <article class="treatment-card treatment-card--copper">
+            <div class="treatment-card__copy">
+              <span class="tag">Tecnología picosegundo</span>
+              <h3>Eliminación de tatuajes</h3>
+              <dl class="mini-prices">
+                <div><dt>4x4 cm</dt><dd>40€</dd></div>
+                <div><dt>6x6 cm</dt><dd>50€</dd></div>
+                <div><dt>10x10 cm</dt><dd>70€</dd></div>
+                <div><dt>15x15 cm</dt><dd>120€</dd></div>
+                <div><dt>Más de 15 cm</dt><dd>Desde 140€</dd></div>
+                <div><dt>Pack de 3 sesiones</dt><dd>Consultar</dd></div>
+                <div><dt>Manchas solares</dt><dd>Desde 50€</dd></div>
+                <div><dt>Micropigmentación cejas</dt><dd>60€</dd></div>
+              </dl>
+            </div>
+            <img src="assets/optimized/eliminacion-tatuajes.jpg" alt="Eliminación de tatuajes con tecnología láser" />
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>D.B.Beauty</p>
+      <a href="#inicio">Volver arriba</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
