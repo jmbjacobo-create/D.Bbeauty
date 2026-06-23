@@ -268,6 +268,11 @@ button {
   font-size: clamp(2.25rem, 4.8vw, 5rem);
 }
 
+.intro > h2 {
+  max-width: 760px;
+  margin-top: 14px;
+}
+
 .intro p,
 .pricing-header p {
   margin: 0;
